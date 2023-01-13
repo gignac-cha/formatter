@@ -7,6 +7,8 @@
     "install:server": "cd server && npm install",
     "install:ui": "cd ui && npm install",
     "preinstall": "npm run install:server && npm run install:ui",
+    "build:ui": "cd ui && npm run build",
+    "build": "npm run build:ui",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
